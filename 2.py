@@ -17,3 +17,5 @@ class A(object):
 
 if __name__ == '__main__':
     A().run()
+
+    # 更新时间比较长，一般1-2分钟左右才会更新到raw上
