@@ -10,7 +10,7 @@ class A(object):
         pass
 
     def run(self):
-        u = "https://raw.githubusercontent.com/peterpuf/pyet/master/1.py"
+        u = "https://raw.githubusercontent.com/peterpuf/pyet/master/way1/1.py"
         r = requests.get(u)
         print(r.text)
 
