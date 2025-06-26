@@ -1,0 +1,19 @@
+import requests
+
+
+class A(object):
+    def __init__(self):
+        self.session = requests.session()
+        self.username = ""
+
+    def get_new_session(self):
+        pass
+
+    def run(self):
+        u = "https://raw.githubusercontent.com/peterpuf/pyet/master/1.py"
+        r = requests.get(u)
+        print(r.text)
+
+
+if __name__ == '__main__':
+    A().run()
